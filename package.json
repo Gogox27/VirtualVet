@@ -1,0 +1,41 @@
+{
+  "name": "virtualvet200",
+  "version": "1.0.0",
+  "main": "expo-router/entry",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "^1.23.1",
+    "@supabase/supabase-js": "^2.49.4",
+    "base64-arraybuffer": "^1.0.2",
+    "expo": "~52.0.42",
+    "expo-av": "^15.0.2",
+    "expo-file-system": "^18.0.12",
+    "expo-image": "~2.0.7",
+    "expo-image-picker": "~16.0.6",
+    "expo-router": "~4.0.20",
+    "expo-status-bar": "~2.0.1",
+    "moment": "^2.30.1",
+    "patch-package": "^8.0.0",
+    "react": "18.3.1",
+    "react-native": "0.76.9",
+    "react-native-dotenv": "^3.4.11",
+    "react-native-gesture-handler": "~2.20.2",
+    "react-native-pell-rich-editor": "^1.9.0",
+    "react-native-render-html": "^6.3.4",
+    "react-native-share": "^12.0.9",
+    "react-native-url-polyfill": "^2.0.0",
+    "react-native-web": "^0.19.13",
+    "react-native-webview": "13.12.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0",
+    "@types/react": "~18.3.12",
+    "typescript": "^5.3.3"
+  },
+  "private": true
+}
